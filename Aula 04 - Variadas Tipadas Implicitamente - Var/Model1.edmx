@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DMAC_LOJAModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Loja">
+          <Key>
+            <PropertyRef Name="LO_Loja" />
+          </Key>
+          <Property Name="LO_Loja" Type="char" MaxLength="5" Nullable="false" />
+          <Property Name="LO_Empresa" Type="smallint" Nullable="false" />
+          <Property Name="LO_Endereco" Type="varchar" MaxLength="40" Nullable="false" />
+          <Property Name="LO_Numero" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="LO_Bairro" Type="varchar" MaxLength="15" Nullable="false" />
+          <Property Name="LO_Municipio" Type="varchar" MaxLength="15" Nullable="false" />
+          <Property Name="LO_UF" Type="char" MaxLength="2" Nullable="false" />
+          <Property Name="LO_Cep" Type="char" MaxLength="8" Nullable="false" />
+          <Property Name="LO_CGC" Type="varchar" MaxLength="15" Nullable="false" />
+          <Property Name="LO_InscricaoEstadual" Type="varchar" MaxLength="15" Nullable="false" />
+          <Property Name="LO_Telefone" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="LO_Fax" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="LO_Localizacao" Type="char" MaxLength="30" Nullable="false" />
+          <Property Name="LO_Registro" Type="varchar" MaxLength="15" Nullable="false" />
+          <Property Name="LO_UltimaConexao" Type="datetime" Nullable="false" />
+          <Property Name="LO_SituacaoConexao" Type="char" MaxLength="1" Nullable="false" />
+          <Property Name="LO_TelComunicacao" Type="varchar" MaxLength="15" Nullable="false" />
+          <Property Name="LO_UltimoProcesso" Type="datetime" Nullable="false" />
+          <Property Name="LO_ArquivosProcessar" Type="char" MaxLength="1" Nullable="false" />
+          <Property Name="LO_SituacaoProcesso" Type="char" MaxLength="1" Nullable="false" />
+          <Property Name="LO_SituacaoCaixa" Type="char" MaxLength="1" Nullable="false" />
+          <Property Name="LO_Situacao" Type="char" MaxLength="1" />
+          <Property Name="LO_Gerente" Type="varchar" MaxLength="15" />
+          <Property Name="LO_CriaArquivos" Type="char" MaxLength="1" />
+          <Property Name="LO_ProximoInventario" Type="datetime" />
+          <Property Name="LO_UltimoInventario" Type="datetime" />
+          <Property Name="LO_Razao" Type="char" MaxLength="30" />
+          <Property Name="LO_NomeLogotipo" Type="varchar" MaxLength="60" />
+          <Property Name="LO_OrdemLoja" Type="int" />
+          <Property Name="LO_PosicaoLoja" Type="int" />
+          <Property Name="LO_Regiao" Type="int" />
+          <Property Name="LO_SituacaoEnvio" Type="char" MaxLength="1" />
+          <Property Name="LO_ProcessaNota" Type="char" MaxLength="2" />
+          <Property Name="LO_ComprasOnLine" Type="char" MaxLength="2" Nullable="false" />
+          <Property Name="LO_ProcessaAuditorEstoque" Type="char" MaxLength="1" />
+          <Property Name="LO_ProcessaEstoque" Type="char" MaxLength="1" />
+          <Property Name="LO_MostraEstoque" Type="char" MaxLength="1" />
+          <Property Name="LO_PerInvInicial" Type="datetime" />
+          <Property Name="LO_PerInvFinal" Type="datetime" />
+          <Property Name="LO_IpLoja" Type="char" MaxLength="15" />
+          <Property Name="LO_NomeServidor" Type="char" MaxLength="31" />
+          <Property Name="LO_BancoOnLine" Type="int" />
+          <Property Name="LO_LinkedServer" Type="char" MaxLength="1" />
+          <Property Name="LO_OrdemLojaMU" Type="char" MaxLength="2" />
+          <Property Name="LO_CriaEstoque" Type="char" MaxLength="1" />
+          <Property Name="LO_NroFuncionario" Type="int" />
+          <Property Name="LO_MetragemLoja" Type="float" />
+          <Property Name="LO_CodigoUF" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="LO_CodigoMunicipio" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="LO_NomeFantasia" Type="char" MaxLength="20" />
+          <Property Name="LO_CodigoPais" Type="char" MaxLength="4" />
+          <Property Name="LO_EnderecoNFe" Type="char" MaxLength="60" />
+          <Property Name="LO_EnderecoNroNFe" Type="int" />
+          <Property Name="LO_ComplementoNFe" Type="char" MaxLength="60" />
+          <Property Name="LO_OrdemDistribuicao" Type="int" />
+          <Property Name="LO_EmaiLoja" Type="char" MaxLength="50" />
+          <Property Name="LO_EnviaProdutoLoja" Type="char" MaxLength="2" />
+          <Property Name="LO_Conexao" Type="char" MaxLength="1" />
+          <Property Name="LO_GrupoRegiao" Type="char" MaxLength="2" />
+          <Property Name="LO_NroVendedor" Type="int" />
+          <Property Name="LO_LogoPedido" Type="char" MaxLength="30" />
+          <Property Name="LO_InscricaoMunicipal" Type="char" MaxLength="15" />
+          <Property Name="LO_DDD" Type="char" MaxLength="2" />
+          <Property Name="LO_TipoTransferencia" Type="char" MaxLength="2" />
+          <Property Name="LO_DMAC" Type="char" MaxLength="1" />
+          <Property Name="Lo_site" Type="varchar" MaxLength="50" />
+          <Property Name="Lo_Televendas" Type="varchar" MaxLength="20" />
+          <Property Name="lo_nomeLoja" Type="varchar" MaxLength="30" />
+          <Property Name="lo_emailnfe" Type="varchar" MaxLength="60" />
+          <Property Name="lO_Contigencia" Type="int" />
+        </EntityType>
+        <EntityContainer Name="DMAC_LOJAModelStoreContainer">
+          <EntitySet Name="Loja" EntityType="Self.Loja" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DMAC_LOJAModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Loja">
+          <Key>
+            <PropertyRef Name="LO_Loja" />
+          </Key>
+          <Property Name="LO_Loja" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="LO_Empresa" Type="Int16" Nullable="false" />
+          <Property Name="LO_Endereco" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="LO_Numero" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="LO_Bairro" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="LO_Municipio" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="LO_UF" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="LO_Cep" Type="String" MaxLength="8" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="LO_CGC" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="LO_InscricaoEstadual" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="LO_Telefone" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="LO_Fax" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="LO_Localizacao" Type="String" MaxLength="30" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="LO_Registro" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="LO_UltimaConexao" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="LO_SituacaoConexao" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="LO_TelComunicacao" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="LO_UltimoProcesso" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="LO_ArquivosProcessar" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="LO_SituacaoProcesso" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="LO_SituacaoCaixa" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="LO_Situacao" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="LO_Gerente" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="LO_CriaArquivos" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="LO_ProximoInventario" Type="DateTime" Precision="3" />
+          <Property Name="LO_UltimoInventario" Type="DateTime" Precision="3" />
+          <Property Name="LO_Razao" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+          <Property Name="LO_NomeLogotipo" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Name="LO_OrdemLoja" Type="Int32" />
+          <Property Name="LO_PosicaoLoja" Type="Int32" />
+          <Property Name="LO_Regiao" Type="Int32" />
+          <Property Name="LO_SituacaoEnvio" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="LO_ProcessaNota" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <Property Name="LO_ComprasOnLine" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="LO_ProcessaAuditorEstoque" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="LO_ProcessaEstoque" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="LO_MostraEstoque" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="LO_PerInvInicial" Type="DateTime" Precision="3" />
+          <Property Name="LO_PerInvFinal" Type="DateTime" Precision="3" />
+          <Property Name="LO_IpLoja" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="LO_NomeServidor" Type="String" MaxLength="31" FixedLength="true" Unicode="false" />
+          <Property Name="LO_BancoOnLine" Type="Int32" />
+          <Property Name="LO_LinkedServer" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="LO_OrdemLojaMU" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <Property Name="LO_CriaEstoque" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="LO_NroFuncionario" Type="Int32" />
+          <Property Name="LO_MetragemLoja" Type="Double" />
+          <Property Name="LO_CodigoUF" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="LO_CodigoMunicipio" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="LO_NomeFantasia" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+          <Property Name="LO_CodigoPais" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+          <Property Name="LO_EnderecoNFe" Type="String" MaxLength="60" FixedLength="true" Unicode="false" />
+          <Property Name="LO_EnderecoNroNFe" Type="Int32" />
+          <Property Name="LO_ComplementoNFe" Type="String" MaxLength="60" FixedLength="true" Unicode="false" />
+          <Property Name="LO_OrdemDistribuicao" Type="Int32" />
+          <Property Name="LO_EmaiLoja" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+          <Property Name="LO_EnviaProdutoLoja" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <Property Name="LO_Conexao" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="LO_GrupoRegiao" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <Property Name="LO_NroVendedor" Type="Int32" />
+          <Property Name="LO_LogoPedido" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+          <Property Name="LO_InscricaoMunicipal" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="LO_DDD" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <Property Name="LO_TipoTransferencia" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+          <Property Name="LO_DMAC" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="Lo_site" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Lo_Televendas" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="lo_nomeLoja" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="lo_emailnfe" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+          <Property Name="lO_Contigencia" Type="Int32" />
+        </EntityType>
+        <EntityContainer Name="DMACLOJAEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Loja" EntityType="Self.Loja" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DMAC_LOJAModelStoreContainer" CdmEntityContainer="DMACLOJAEntities">
+          <EntitySetMapping Name="Loja">
+            <EntityTypeMapping TypeName="DMAC_LOJAModel.Loja">
+              <MappingFragment StoreEntitySet="Loja">
+                <ScalarProperty Name="LO_Loja" ColumnName="LO_Loja" />
+                <ScalarProperty Name="LO_Empresa" ColumnName="LO_Empresa" />
+                <ScalarProperty Name="LO_Endereco" ColumnName="LO_Endereco" />
+                <ScalarProperty Name="LO_Numero" ColumnName="LO_Numero" />
+                <ScalarProperty Name="LO_Bairro" ColumnName="LO_Bairro" />
+                <ScalarProperty Name="LO_Municipio" ColumnName="LO_Municipio" />
+                <ScalarProperty Name="LO_UF" ColumnName="LO_UF" />
+                <ScalarProperty Name="LO_Cep" ColumnName="LO_Cep" />
+                <ScalarProperty Name="LO_CGC" ColumnName="LO_CGC" />
+                <ScalarProperty Name="LO_InscricaoEstadual" ColumnName="LO_InscricaoEstadual" />
+                <ScalarProperty Name="LO_Telefone" ColumnName="LO_Telefone" />
+                <ScalarProperty Name="LO_Fax" ColumnName="LO_Fax" />
+                <ScalarProperty Name="LO_Localizacao" ColumnName="LO_Localizacao" />
+                <ScalarProperty Name="LO_Registro" ColumnName="LO_Registro" />
+                <ScalarProperty Name="LO_UltimaConexao" ColumnName="LO_UltimaConexao" />
+                <ScalarProperty Name="LO_SituacaoConexao" ColumnName="LO_SituacaoConexao" />
+                <ScalarProperty Name="LO_TelComunicacao" ColumnName="LO_TelComunicacao" />
+                <ScalarProperty Name="LO_UltimoProcesso" ColumnName="LO_UltimoProcesso" />
+                <ScalarProperty Name="LO_ArquivosProcessar" ColumnName="LO_ArquivosProcessar" />
+                <ScalarProperty Name="LO_SituacaoProcesso" ColumnName="LO_SituacaoProcesso" />
+                <ScalarProperty Name="LO_SituacaoCaixa" ColumnName="LO_SituacaoCaixa" />
+                <ScalarProperty Name="LO_Situacao" ColumnName="LO_Situacao" />
+                <ScalarProperty Name="LO_Gerente" ColumnName="LO_Gerente" />
+                <ScalarProperty Name="LO_CriaArquivos" ColumnName="LO_CriaArquivos" />
+                <ScalarProperty Name="LO_ProximoInventario" ColumnName="LO_ProximoInventario" />
+                <ScalarProperty Name="LO_UltimoInventario" ColumnName="LO_UltimoInventario" />
+                <ScalarProperty Name="LO_Razao" ColumnName="LO_Razao" />
+                <ScalarProperty Name="LO_NomeLogotipo" ColumnName="LO_NomeLogotipo" />
+                <ScalarProperty Name="LO_OrdemLoja" ColumnName="LO_OrdemLoja" />
+                <ScalarProperty Name="LO_PosicaoLoja" ColumnName="LO_PosicaoLoja" />
+                <ScalarProperty Name="LO_Regiao" ColumnName="LO_Regiao" />
+                <ScalarProperty Name="LO_SituacaoEnvio" ColumnName="LO_SituacaoEnvio" />
+                <ScalarProperty Name="LO_ProcessaNota" ColumnName="LO_ProcessaNota" />
+                <ScalarProperty Name="LO_ComprasOnLine" ColumnName="LO_ComprasOnLine" />
+                <ScalarProperty Name="LO_ProcessaAuditorEstoque" ColumnName="LO_ProcessaAuditorEstoque" />
+                <ScalarProperty Name="LO_ProcessaEstoque" ColumnName="LO_ProcessaEstoque" />
+                <ScalarProperty Name="LO_MostraEstoque" ColumnName="LO_MostraEstoque" />
+                <ScalarProperty Name="LO_PerInvInicial" ColumnName="LO_PerInvInicial" />
+                <ScalarProperty Name="LO_PerInvFinal" ColumnName="LO_PerInvFinal" />
+                <ScalarProperty Name="LO_IpLoja" ColumnName="LO_IpLoja" />
+                <ScalarProperty Name="LO_NomeServidor" ColumnName="LO_NomeServidor" />
+                <ScalarProperty Name="LO_BancoOnLine" ColumnName="LO_BancoOnLine" />
+                <ScalarProperty Name="LO_LinkedServer" ColumnName="LO_LinkedServer" />
+                <ScalarProperty Name="LO_OrdemLojaMU" ColumnName="LO_OrdemLojaMU" />
+                <ScalarProperty Name="LO_CriaEstoque" ColumnName="LO_CriaEstoque" />
+                <ScalarProperty Name="LO_NroFuncionario" ColumnName="LO_NroFuncionario" />
+                <ScalarProperty Name="LO_MetragemLoja" ColumnName="LO_MetragemLoja" />
+                <ScalarProperty Name="LO_CodigoUF" ColumnName="LO_CodigoUF" />
+                <ScalarProperty Name="LO_CodigoMunicipio" ColumnName="LO_CodigoMunicipio" />
+                <ScalarProperty Name="LO_NomeFantasia" ColumnName="LO_NomeFantasia" />
+                <ScalarProperty Name="LO_CodigoPais" ColumnName="LO_CodigoPais" />
+                <ScalarProperty Name="LO_EnderecoNFe" ColumnName="LO_EnderecoNFe" />
+                <ScalarProperty Name="LO_EnderecoNroNFe" ColumnName="LO_EnderecoNroNFe" />
+                <ScalarProperty Name="LO_ComplementoNFe" ColumnName="LO_ComplementoNFe" />
+                <ScalarProperty Name="LO_OrdemDistribuicao" ColumnName="LO_OrdemDistribuicao" />
+                <ScalarProperty Name="LO_EmaiLoja" ColumnName="LO_EmaiLoja" />
+                <ScalarProperty Name="LO_EnviaProdutoLoja" ColumnName="LO_EnviaProdutoLoja" />
+                <ScalarProperty Name="LO_Conexao" ColumnName="LO_Conexao" />
+                <ScalarProperty Name="LO_GrupoRegiao" ColumnName="LO_GrupoRegiao" />
+                <ScalarProperty Name="LO_NroVendedor" ColumnName="LO_NroVendedor" />
+                <ScalarProperty Name="LO_LogoPedido" ColumnName="LO_LogoPedido" />
+                <ScalarProperty Name="LO_InscricaoMunicipal" ColumnName="LO_InscricaoMunicipal" />
+                <ScalarProperty Name="LO_DDD" ColumnName="LO_DDD" />
+                <ScalarProperty Name="LO_TipoTransferencia" ColumnName="LO_TipoTransferencia" />
+                <ScalarProperty Name="LO_DMAC" ColumnName="LO_DMAC" />
+                <ScalarProperty Name="Lo_site" ColumnName="Lo_site" />
+                <ScalarProperty Name="Lo_Televendas" ColumnName="Lo_Televendas" />
+                <ScalarProperty Name="lo_nomeLoja" ColumnName="lo_nomeLoja" />
+                <ScalarProperty Name="lo_emailnfe" ColumnName="lo_emailnfe" />
+                <ScalarProperty Name="lO_Contigencia" ColumnName="lO_Contigencia" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

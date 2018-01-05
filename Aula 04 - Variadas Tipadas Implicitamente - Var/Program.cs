@@ -11,6 +11,7 @@ namespace Aula_04___Variadas_Tipadas_Implicitamente___Var
         static void Main(string[] args)
         {
 
+            #pragma warning disable 0, CS0219
             var i = 5;
             var nome = "felipe";
             var vetor = new[] { 0, 1, 2 };

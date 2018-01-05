@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 04 - Variadas Tipadas 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 05 - Estruturas de fluxo - IF", "Aula 05 - Estruturas de fluxo - IF\Aula 05 - Estruturas de fluxo - IF.csproj", "{4EEFA029-239D-4151-8324-37B51FA386EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 06 - Estruturas de repeticao", "Aula 06 - Estruturas de repeticao\Aula 06 - Estruturas de repeticao.csproj", "{12F30B6A-81D6-4CD3-A968-2A2F506116AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4EEFA029-239D-4151-8324-37B51FA386EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EEFA029-239D-4151-8324-37B51FA386EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EEFA029-239D-4151-8324-37B51FA386EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12F30B6A-81D6-4CD3-A968-2A2F506116AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F30B6A-81D6-4CD3-A968-2A2F506116AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F30B6A-81D6-4CD3-A968-2A2F506116AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F30B6A-81D6-4CD3-A968-2A2F506116AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -34,7 +34,7 @@ namespace Aula_04___Variadas_Tipadas_Implicitamente___Var
             //aqui nessa consulta, eu não é obrigado a usar o VAR
             //porque o tipo definido no nomes, foi explicito
             string[] nomes = { "nome", "felipe" };
-            var consulta2 = from nome in nomes
+            var consulta2 = from nomess in nomes
                            where nome[0] == 'n'
                            select nome;
 

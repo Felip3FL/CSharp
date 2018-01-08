@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 06 - Estruturas de rep
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 07 - Switch Case", "Aula 07 - Switch Case\Aula 07 - Switch Case.csproj", "{5AF0EEEF-A85F-418C-A959-CDAB703B0EE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 08 - Conversao de Tipos", "Aula 08 - Conversao de Tipos\Aula 08 - Conversao de Tipos.csproj", "{5050F8C9-57D7-4C5C-8C95-D134ABBC21D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5AF0EEEF-A85F-418C-A959-CDAB703B0EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AF0EEEF-A85F-418C-A959-CDAB703B0EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AF0EEEF-A85F-418C-A959-CDAB703B0EE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5050F8C9-57D7-4C5C-8C95-D134ABBC21D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5050F8C9-57D7-4C5C-8C95-D134ABBC21D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5050F8C9-57D7-4C5C-8C95-D134ABBC21D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5050F8C9-57D7-4C5C-8C95-D134ABBC21D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

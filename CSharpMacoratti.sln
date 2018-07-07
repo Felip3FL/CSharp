@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 12 - Arrays", "Aula 12
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 14 - Metodos", "Aula 14 - Metodos\Aula 14 - Metodos.csproj", "{29744E29-2D01-4FB5-BC40-1020538A628F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 14 - Metodos parametros opcionais", "Aula 14 - Metodos parametros opcionais\Aula 14 - Metodos parametros opcionais.csproj", "{17E304DB-3E92-4F9F-A0FE-362930497B69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 15 - Structs", "Aula 15 - Structs\Aula 15 - Structs.csproj", "{3101FE4F-A9C8-4F23-84B1-2CFBF40B727E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{29744E29-2D01-4FB5-BC40-1020538A628F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29744E29-2D01-4FB5-BC40-1020538A628F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29744E29-2D01-4FB5-BC40-1020538A628F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17E304DB-3E92-4F9F-A0FE-362930497B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E304DB-3E92-4F9F-A0FE-362930497B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E304DB-3E92-4F9F-A0FE-362930497B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E304DB-3E92-4F9F-A0FE-362930497B69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3101FE4F-A9C8-4F23-84B1-2CFBF40B727E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3101FE4F-A9C8-4F23-84B1-2CFBF40B727E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3101FE4F-A9C8-4F23-84B1-2CFBF40B727E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3101FE4F-A9C8-4F23-84B1-2CFBF40B727E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

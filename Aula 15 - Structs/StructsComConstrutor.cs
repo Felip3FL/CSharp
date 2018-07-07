@@ -21,12 +21,6 @@ namespace Aula_15___Structs
                 Idade = _idade;
             }
 
-            //construtor sem parâmetros não é permitido
-            //public Pessoa()
-            //{
-            //    Nome = _nome;
-            //    Idade = _idade;
-            //}
         }
 
         public void UsandoConstrutor()

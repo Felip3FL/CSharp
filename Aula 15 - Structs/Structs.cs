@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Aula_15___Structs
 {
     class Structs
@@ -18,6 +19,10 @@ namespace Aula_15___Structs
 
         static void Main(string[] args)
         {
+
+            //Usando Structs com construtor
+            StructsComConstrutor structsComConstrutor = new StructsComConstrutor();
+            structsComConstrutor.UsandoConstrutor();
 
             Pessoa[] dadosPessoa = new Pessoa[3];
             int i = 0;
@@ -48,6 +53,7 @@ namespace Aula_15___Structs
                 Console.WriteLine("Altura: {0}\tPeso: {1}\tIMC: {2}\n", 
                     dadosPessoa[x].Altura, dadosPessoa[x].Peso, dadosPessoa[x].IMC);
             }
+
 
             Console.ReadKey();
 

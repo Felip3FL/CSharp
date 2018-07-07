@@ -19,19 +19,35 @@ namespace Aula_15___Structs
         static void Main(string[] args)
         {
 
-            Pessoa felipe = new Pessoa();
+            Pessoa[] dadosPessoa = new Pessoa[3];
+            int i = 0;
+            do
+            {
 
-            Console.WriteLine("Informe a sua altura em metros");
-            felipe.Altura = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("Informe a sua altura em metros");
+                dadosPessoa[i].Altura = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Informe seu peso");
-            felipe.Peso = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("Informe seu peso");
+                dadosPessoa[i].Peso = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("O seu peso é {0} m e sua altura é {1} m", felipe.Altura, felipe.Peso);
-            felipe.IMC = calculaIMC(felipe.Peso, felipe.Altura);
+                Console.WriteLine("O seu peso é {0} m e sua altura é {1} m", dadosPessoa[i].Altura, dadosPessoa[i].Peso);
+                dadosPessoa[i].IMC = calculaIMC(dadosPessoa[i].Peso, dadosPessoa[i].Altura);
 
-            Console.WriteLine("Seu IMC é igual á {0}", felipe.IMC);
-            exibeResultado(felipe.IMC);
+                Console.WriteLine("Seu IMC é igual á {0}", dadosPessoa[i].IMC);
+                exibeResultado(dadosPessoa[i].IMC);
+
+                i++;
+            }
+
+            while (i < dadosPessoa.Length);
+
+            //Percorrendo o vetor e imprimindo dados
+            for (int x = 0; x < dadosPessoa.Length; x++)
+            {
+                
+                Console.WriteLine("Altura: {0}\tPeso: {1}\tIMC: {2}\n", 
+                    dadosPessoa[x].Altura, dadosPessoa[x].Peso, dadosPessoa[x].IMC);
+            }
 
             Console.ReadKey();
 

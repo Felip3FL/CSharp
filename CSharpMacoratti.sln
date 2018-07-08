@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 17 - Diferenca entre C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 18 - Classe e Heranca", "Aula 18 - Classe e Heranca\Aula 18 - Classe e Heranca.csproj", "{AA2B956E-69C9-4A8D-8CF1-FF38820709C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 19 - Classe Membros static", "Aula 19 - Classe Membros static\Aula 19 - Classe Membros static.csproj", "{A8232010-63C9-4F30-A7E0-35EC9AA12B9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{AA2B956E-69C9-4A8D-8CF1-FF38820709C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA2B956E-69C9-4A8D-8CF1-FF38820709C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA2B956E-69C9-4A8D-8CF1-FF38820709C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8232010-63C9-4F30-A7E0-35EC9AA12B9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8232010-63C9-4F30-A7E0-35EC9AA12B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8232010-63C9-4F30-A7E0-35EC9AA12B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8232010-63C9-4F30-A7E0-35EC9AA12B9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

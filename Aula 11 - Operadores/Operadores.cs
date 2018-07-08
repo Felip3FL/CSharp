@@ -91,7 +91,9 @@ namespace Aula_11___Operadores
             //	Relacionais: == , > , < , <= , >= , !=
 
             int i, j;
+#pragma warning disable CS0168 // Variable is declared but never used
             bool b1, b2;
+#pragma warning restore CS0168 // Variable is declared but never used
             i = 10;
             j = 11;
 

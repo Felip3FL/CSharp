@@ -17,6 +17,20 @@ namespace Aula_16___Classes
             //gol.Cor = "Prata Preto Branco";
 
             Console.WriteLine(gol.Descricao());
+
+
+            //Usando o STATIC para contar os carros
+
+            CarroComStatic fusca = new CarroComStatic();
+            fusca.Cor = "Vermelho";
+            Console.WriteLine(fusca.Descricao());
+
+            CarroComStatic palio = new CarroComStatic();
+            palio.Cor = "Verde";
+            Console.WriteLine(palio.Descricao());
+
+            Console.WriteLine("Quantidade = " + CarroComStatic.quantidade);
+
             Console.ReadKey();
 
         }

@@ -19,6 +19,14 @@ namespace Aula_18___Classe_e_Heranca
             felipe.cpf = "666.666.666-66";
             felipe.TesteOcutarMembros();
 
+            //Aluno joao = new Aluno()
+            //joao.nome = "Felipe";
+            //joao.endereço = "Rua 10";
+            //joao.rg = "66.666.666-66";
+            //joao.cpf = "666.666.666-66";
+            //joao.matricula = "RA00000";
+
+            Console.WriteLine("");
 
             //Para Acessar um membro oculto  
             PessoaFisica pedroPessoaFisica = new PessoaFisica();
@@ -26,15 +34,17 @@ namespace Aula_18___Classe_e_Heranca
 
             pedroPessoaFisica.TesteOcutarMembros();
             pedro.TesteOcutarMembros();
+            Console.WriteLine("");
 
-            //Aluno joao = new Aluno();
 
-            //joao.nome = "Felipe";
-            //joao.endereço = "Rua 10";
-            //joao.rg = "66.666.666-66";
-            //joao.cpf = "666.666.666-66";
-            //joao.matricula = "RA00000";
 
+            //Sobrescrever metodo
+            PessoaFisica2 maria = new PessoaFisica2();
+            maria.rg = "va";
+            maria.cpf = "va";
+            maria.nome = "va";
+            maria.endereço = "va";
+            maria.TesteSobreEscrever();
 
             Console.ReadKey();
 

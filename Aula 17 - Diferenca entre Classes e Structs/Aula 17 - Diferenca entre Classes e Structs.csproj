@@ -7,7 +7,7 @@
     <ProjectGuid>{A8424ED1-D09D-4FA6-82B3-6D8C171D509A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Aula_17___Diferenca_entre_Classes_e_Structs</RootNamespace>
-    <AssemblyName>Aula_17___Diferenca_entre_Classes_e_Structs</AssemblyName>
+    <AssemblyName>Aula 17 - Diferenca entre Classes e Structs</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IModelo.cs" />
+    <Compile Include="Livro.cs" />
+    <Compile Include="Pessoa.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Carro.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

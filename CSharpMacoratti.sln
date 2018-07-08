@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 15 - Structs", "Aula 1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 16 - Classes", "Aula 16 - Classes\Aula 16 - Classes.csproj", "{E9EE6B23-F005-4B5D-94A5-1EC8818E8BA5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 17 - Diferenca entre Classes e Structs", "Aula 17 - Diferenca entre Classes e Structs\Aula 17 - Diferenca entre Classes e Structs.csproj", "{A8424ED1-D09D-4FA6-82B3-6D8C171D509A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{E9EE6B23-F005-4B5D-94A5-1EC8818E8BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9EE6B23-F005-4B5D-94A5-1EC8818E8BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9EE6B23-F005-4B5D-94A5-1EC8818E8BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8424ED1-D09D-4FA6-82B3-6D8C171D509A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8424ED1-D09D-4FA6-82B3-6D8C171D509A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8424ED1-D09D-4FA6-82B3-6D8C171D509A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8424ED1-D09D-4FA6-82B3-6D8C171D509A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

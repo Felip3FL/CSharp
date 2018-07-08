@@ -12,10 +12,9 @@ namespace Aula_16___Classes
         {
 
             Carro gol; //Definir uma variavel
-            gol = new Carro(); //Instancia da classe, cria o objeto
+            gol = new Carro("Prata Preto Branco"); //Instancia da classe com valor usando o construtor
 
-            gol.Cor = "Prata Preto Branco";
-
+            //gol.Cor = "Prata Preto Branco";
 
             Console.WriteLine(gol.Descricao());
             Console.ReadKey();

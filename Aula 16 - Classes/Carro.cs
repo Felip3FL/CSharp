@@ -10,6 +10,19 @@ namespace Aula_16___Classes
 
     class Carro
     {
+
+        //Construtor
+        public Carro(String cor)
+        {
+            this.Cor = cor;
+        }
+
+        //Sobrecarregando construtor
+        public Carro()
+        {
+
+        }
+
         private string cor;
 
         public string Cor
@@ -36,12 +49,8 @@ namespace Aula_16___Classes
             return "O carro é : " + Cor;
         }
 
-        //Construtor
 
-        public Carro(String cor)
-        {
-            this.Cor = "";
-        }
+
 
     }
 

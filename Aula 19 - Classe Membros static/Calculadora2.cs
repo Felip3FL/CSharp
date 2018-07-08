@@ -8,7 +8,7 @@ namespace Aula_19___Classe_Membros_static
 {
     public class Calculadora2
     {
-        protected string copyright = "JcmSoft - Todos os direitos reservados.";
+        protected string copyright = "FL - Todos os direitos reservados.";
 
         private int Somar(int numero1, int numero2)
         {

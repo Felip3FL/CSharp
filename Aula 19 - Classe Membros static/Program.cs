@@ -75,7 +75,8 @@ namespace Aula_19___Classe_Membros_static
 
             Calculadora2 calc = new Calculadora2();
             Abaco abaco = new Abaco();
-
+            abaco.
+            
             //////////////////////////////////////////////////////////
 
             Console.ReadKey();

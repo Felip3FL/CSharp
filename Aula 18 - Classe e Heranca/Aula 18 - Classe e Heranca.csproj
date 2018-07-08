@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClasseEHeranca.cs" />
+    <Compile Include="ClasseBase.cs" />
     <Compile Include="Pessoa.cs" />
     <Compile Include="Pessoa2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -45,6 +45,17 @@ namespace Aula_18___Classe_e_Heranca
             maria.nome = "va";
             maria.endereço = "va";
             maria.TesteSobreEscrever();
+            Console.WriteLine("");
+
+
+            //Chamando certo construtor 
+            ClasseDerivada derivado = new ClasseDerivada("Felipe",90);
+            Console.WriteLine("Criei uma instância da classe derivada");
+            Console.WriteLine("nome : " + derivado.nome);
+            Console.WriteLine("idade : " + derivado.idade);
+            Console.WriteLine("Email : " + derivado.Email);
+            Console.WriteLine("");
+
 
             Console.ReadKey();
 

@@ -33,8 +33,12 @@ namespace Aula_19___Classe_Membros_static
     {
         int numero1;
         int numero2;
+
+
         public Abaco()
         {
+            numero1 = 10;
+            numero2 = 10;
             Console.WriteLine(this.copyright);
         }
 

@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 20 - Tratamento Exceco
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 21 - Classe Abstrata e Seladas", "Aula 21 - Classe Abstrata e Seladas\Aula 21 - Classe Abstrata e Seladas.csproj", "{941117C0-F227-496A-A009-845CADC68A1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 22 - Interface", "Aula 22 - Interface\Aula 22 - Interface.csproj", "{7E1034A9-5350-4FC3-9335-F4B481751989}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{941117C0-F227-496A-A009-845CADC68A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{941117C0-F227-496A-A009-845CADC68A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{941117C0-F227-496A-A009-845CADC68A1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E1034A9-5350-4FC3-9335-F4B481751989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E1034A9-5350-4FC3-9335-F4B481751989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E1034A9-5350-4FC3-9335-F4B481751989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E1034A9-5350-4FC3-9335-F4B481751989}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

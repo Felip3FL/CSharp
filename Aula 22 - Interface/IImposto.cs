@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Aula_22___Interface
 {
-    interface IImposto
+    public interface IImposto
     {
         //Assinatura do método
         double calcularImposto();
 
     }
 
-    public interface ITransacao
+    public interface ITransacao : IImposto
     {
         void exibirTransacao();
         double getValor();
@@ -29,11 +29,16 @@ namespace Aula_22___Interface
     }
 
 
-    public class Transacao : Juros, ITransacao, IImposto
+    public class Transacao : Juros, ITransacao
     {
         private string codigo;
         public string data;
         public double valor;
+
+        public virtual double calcularImposto()
+        {
+            return valor * 0.15;
+        }
 
         public Transacao()
         {
@@ -63,9 +68,16 @@ namespace Aula_22___Interface
             return valor;
         }
 
-        public double calcularImposto()
+
+
+    }
+
+    public class Teste : Transacao
+    {
+        public override double calcularImposto()
         {
-            return valor * 0.15;
+            return getValor() * .30;
         }
     }
+
 }

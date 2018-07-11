@@ -107,6 +107,11 @@ namespace Aula_23___Diferencas_Classe_Abstrata_e_Interface
         {
             public string Versao { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
+            public int calcularIdade(int idade)
+            {
+                throw new NotImplementedException();
+            }
+
             public void exibirGenero()
             {
                 throw new NotImplementedException();

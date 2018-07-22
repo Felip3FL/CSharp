@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 24 - Metodo Hiding", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 25 - Polimorfismo", "Aula 25 - Polimorfismo\Aula 25 - Polimorfismo.csproj", "{956E524B-195A-4304-8B85-F702D05B9CFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 26 - String", "Aula 26 - String\Aula 26 - String.csproj", "{5AA93EF3-9472-4A60-9B36-331F4BB36917}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{956E524B-195A-4304-8B85-F702D05B9CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{956E524B-195A-4304-8B85-F702D05B9CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{956E524B-195A-4304-8B85-F702D05B9CFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA93EF3-9472-4A60-9B36-331F4BB36917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA93EF3-9472-4A60-9B36-331F4BB36917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA93EF3-9472-4A60-9B36-331F4BB36917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA93EF3-9472-4A60-9B36-331F4BB36917}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

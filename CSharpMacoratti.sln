@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 27 - Colecoes", "Aula 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 28 - Generics", "Aula 28 - Generics\Aula 28 - Generics.csproj", "{54381F19-2AD3-4078-BF98-607825EA7152}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 29 - Partial Class", "Aula 29 - Partial Class\Aula 29 - Partial Class.csproj", "{5E9E0021-69B7-4891-9042-0DDEF117DEC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{54381F19-2AD3-4078-BF98-607825EA7152}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54381F19-2AD3-4078-BF98-607825EA7152}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54381F19-2AD3-4078-BF98-607825EA7152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E9E0021-69B7-4891-9042-0DDEF117DEC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9E0021-69B7-4891-9042-0DDEF117DEC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9E0021-69B7-4891-9042-0DDEF117DEC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9E0021-69B7-4891-9042-0DDEF117DEC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

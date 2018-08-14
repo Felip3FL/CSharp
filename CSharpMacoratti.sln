@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 31 - Delegate Func", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 32 - Delegate Action", "Aula 32 - Delegate Action\Aula 32 - Delegate Action.csproj", "{81C65BC2-FABA-45E0-9958-07594AD58067}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 33 - Delegate Predicate", "Aula 33 - Delegate Predicate\Aula 33 - Delegate Predicate.csproj", "{EB8D83C0-9D03-4BE0-B6D5-549FE0AF67DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{81C65BC2-FABA-45E0-9958-07594AD58067}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81C65BC2-FABA-45E0-9958-07594AD58067}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81C65BC2-FABA-45E0-9958-07594AD58067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB8D83C0-9D03-4BE0-B6D5-549FE0AF67DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8D83C0-9D03-4BE0-B6D5-549FE0AF67DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8D83C0-9D03-4BE0-B6D5-549FE0AF67DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8D83C0-9D03-4BE0-B6D5-549FE0AF67DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

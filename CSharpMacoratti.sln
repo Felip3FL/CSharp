@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 30 - Delegates", "Aula
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 31 - Delegate Func", "Aula 31 - Delegate Func\Aula 31 - Delegate Func.csproj", "{A0693AE1-9362-4B93-A30B-5D2148131E21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 32 - Delegate Action", "Aula 32 - Delegate Action\Aula 32 - Delegate Action.csproj", "{81C65BC2-FABA-45E0-9958-07594AD58067}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +179,10 @@ Global
 		{A0693AE1-9362-4B93-A30B-5D2148131E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0693AE1-9362-4B93-A30B-5D2148131E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0693AE1-9362-4B93-A30B-5D2148131E21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81C65BC2-FABA-45E0-9958-07594AD58067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C65BC2-FABA-45E0-9958-07594AD58067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C65BC2-FABA-45E0-9958-07594AD58067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C65BC2-FABA-45E0-9958-07594AD58067}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

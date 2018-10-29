@@ -65,6 +65,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 33 - Delegate Predicat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 34 - LINQ", "Aula 34 - LINQ\Aula 34 - LINQ.csproj", "{24900DEC-4403-448E-807E-BAF582417B89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 34 - LINQ 2", "Aula 34 - LINQ 2\Aula 34 - LINQ 2.csproj", "{79ABF650-B473-4C7C-B17E-88F13E78D8E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +197,10 @@ Global
 		{24900DEC-4403-448E-807E-BAF582417B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24900DEC-4403-448E-807E-BAF582417B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24900DEC-4403-448E-807E-BAF582417B89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79ABF650-B473-4C7C-B17E-88F13E78D8E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79ABF650-B473-4C7C-B17E-88F13E78D8E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79ABF650-B473-4C7C-B17E-88F13E78D8E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79ABF650-B473-4C7C-B17E-88F13E78D8E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

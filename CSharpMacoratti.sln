@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 36 - LINQ Operadores d
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 37 - LINQ Expressões Lambdas", "Aula 37 - LINQ Expressões Lambdas\Aula 37 - LINQ Expressões Lambdas.csproj", "{2FE276BE-1A18-4746-ADCE-2691B9E2348D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 38 - LINQ Query Expressions", "Aula 38 - LINQ Query Expressions\Aula 38 - LINQ Query Expressions.csproj", "{64D84451-9604-49FE-A9B2-52F1F806E425}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{2FE276BE-1A18-4746-ADCE-2691B9E2348D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FE276BE-1A18-4746-ADCE-2691B9E2348D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FE276BE-1A18-4746-ADCE-2691B9E2348D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D84451-9604-49FE-A9B2-52F1F806E425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D84451-9604-49FE-A9B2-52F1F806E425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D84451-9604-49FE-A9B2-52F1F806E425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D84451-9604-49FE-A9B2-52F1F806E425}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

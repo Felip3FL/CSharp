@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 38 - LINQ Query Expres
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 39 - LINQ to XML", "Aula 39 - LINQ to XML\Aula 39 - LINQ to XML.csproj", "{908F61BC-BA38-45A9-883E-6A08823A15C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 40 - Reflection", "Aula 40 - Reflection\Aula 40 - Reflection.csproj", "{A84404E0-3B8D-4458-91A6-D5BFCAD60B54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +227,10 @@ Global
 		{908F61BC-BA38-45A9-883E-6A08823A15C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{908F61BC-BA38-45A9-883E-6A08823A15C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{908F61BC-BA38-45A9-883E-6A08823A15C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A84404E0-3B8D-4458-91A6-D5BFCAD60B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A84404E0-3B8D-4458-91A6-D5BFCAD60B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A84404E0-3B8D-4458-91A6-D5BFCAD60B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A84404E0-3B8D-4458-91A6-D5BFCAD60B54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

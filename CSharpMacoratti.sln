@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 46 - Arquivos IO", "Au
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 47 - Arquivo IO 2", "Aula 47 - Arquivo IO 2\Aula 47 - Arquivo IO 2.csproj", "{1E195390-49E6-4868-9E60-8C21E332DD0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 48 - SQL Server", "Aula 48 - SQL Server\Aula 48 - SQL Server.csproj", "{7F8651FD-ED14-4DEC-A330-8E977CE04202}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +245,10 @@ Global
 		{1E195390-49E6-4868-9E60-8C21E332DD0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E195390-49E6-4868-9E60-8C21E332DD0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E195390-49E6-4868-9E60-8C21E332DD0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F8651FD-ED14-4DEC-A330-8E977CE04202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F8651FD-ED14-4DEC-A330-8E977CE04202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F8651FD-ED14-4DEC-A330-8E977CE04202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8651FD-ED14-4DEC-A330-8E977CE04202}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
